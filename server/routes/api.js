@@ -78,11 +78,10 @@ router.put("/video/:id", async (req, res) => {
 router.delete("/video/:id", async (req, res) => {
   const videoId = req.params.id;
   try {
-    const video = await Video.findById(videoId);
+    const video = await Video.findByIdAndRemove(videoId);
     if (!video) {
       return res.status(404).send("Video not found");
     }
-    video.remove(videoId);
     res.send("Video deleted successfully");
   } catch (error) {
     console.log(error);
