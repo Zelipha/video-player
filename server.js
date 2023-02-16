@@ -17,6 +17,6 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "dist/index.html"));
 });
 
-app.listen(port, function () {
-  console.log("Server running on localhost:" + port);
+app.listen(port, () => {
+  console.log(`Server running on localhost: ${port}`);
 });
