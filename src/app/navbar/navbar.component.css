@@ -1,0 +1,35 @@
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(24, 21, 21);
+}
+
+nav {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(117, 192, 41);
+  margin-left: 1em;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 20%;
+}
+
+nav ul li {
+  margin-left: 4em;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(73, 219, 219);
+  font-size: 18px;
+}
