@@ -1,0 +1,33 @@
+<div>
+  <iframe width="100%" height="400" [src]="video.url | safe"></iframe>
+</div>
+
+<div class="form">
+  <form>
+    <div *ngIf="editTitle" class="form-group">
+      <input
+        type="input"
+        name="title"
+        required
+        placeholder="title"
+        [(ngModel)]="video.title"
+      />
+    </div>
+    <h3 *ngIf="!editTitle" (click)="onTitleClick()">{{ video.title }}</h3>
+    <div class="form-group">
+      <input
+        type="input"
+        name="url"
+        required
+        placeholder="url"
+        [(ngModel)]="video.url"
+      />
+    </div>
+    <div class="form-group">
+      <textarea rows="5" name="desc" [(ngModel)]="video.description">
+      </textarea>
+    </div>
+    <button type="button" (click)="updateVideo()">Update</button>
+    <button type="button" (click)="deleteVideo($event)">Delete</button>
+  </form>
+</div>

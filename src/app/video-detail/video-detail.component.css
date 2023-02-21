@@ -1,0 +1,14 @@
+.form {
+  padding-top: 20px;
+}
+.form-group {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid gray;
+}
