@@ -1,0 +1,14 @@
+ul li {
+  list-style-type: none;
+  padding: 5px;
+  width: 100px;
+}
+
+ul li:hover {
+  background-color: rgb(235, 228, 228);
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
