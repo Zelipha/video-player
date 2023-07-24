@@ -20,7 +20,7 @@
     "@angular/router": "^15.1.0",
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
-    "mongoose": "^7.3.2",
+    "mongoose": "^7.3.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.5.3",
     "zone.js": "~0.13.1"
