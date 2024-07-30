@@ -5,7 +5,7 @@ const { async } = require("rxjs");
 const Video = require("../models/video");
 
 const uri =
-  "mongodb+srv://zeliq:her123@cluster0.qwuqrq3.mongodb.net/videoplayer?retryWrites=true&w=majority";
+  "mongodb+srv://zeliq:******@cluster0.qwuqrq3.mongodb.net/videoplayer?retryWrites=true&w=majority";
 mongoose.set("strictQuery", true);
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
