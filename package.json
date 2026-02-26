@@ -16,7 +16,7 @@
     "@angular/core": "^20.3.16",
     "@angular/forms": "^21.1.1",
     "@angular/platform-browser": "^20.2.3",
-    "@angular/platform-browser-dynamic": "^20.3.6",
+    "@angular/platform-browser-dynamic": "^21.1.2",
     "@angular/router": "^20.3.9",
     "body-parser": "^2.2.1",
     "express": "^4.22.1",
